@@ -1,0 +1,218 @@
+#header{
+  background: rgb(66, 195, 247);
+  color: white;
+}
+#menu{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+#logo{
+ color: white;
+ font-size: 2rem;
+ margin-top: 0.3rem;
+}
+#menu li{
+ display: inline-block;
+}
+#menu li a{
+ color: white;
+ padding: 15px 10px;
+ display: block;
+ text-decoration: none;
+}
+#banner{
+ /* background: cornsilk; */
+ background: url('/images/banner.jpg') no-repeat 0 0;
+ background-size: cover;
+}
+.banner-title h1{
+ background: rgb(255, 255, 255, 0.8);
+ margin: 0;
+ padding: 10px;
+ display: inline-block;
+}
+.banner-title p.lead{
+ background:  rgb(119, 216, 255, 0.8);
+ display: inline-block;
+ padding: 10px;
+ color: white;
+}
+.banner-title{
+ margin-top: 5rem;
+}
+.service-box{
+ text-align: center;
+}
+.service-box i.fa{
+ font-size: 70px;
+ color: rgb(66, 195, 247);
+ margin-bottom: 15px;
+}
+.section{
+ padding-top: 70px;
+ padding-bottom: 70px;
+}
+.section h2.section-heading{
+ margin-bottom: 40px;
+ text-align: center;
+}
+.section h2.section-heading:after{
+ background: rgb(66, 195, 247);
+ height: 3px;
+ width:100px;
+ content: "";
+ display: block;
+ margin: 20px auto;
+}
+#testimonials{
+ background: url(/images/technology-d.jpg) no-repeat 0 0 ;
+ background-size: cover;
+ padding: 50px 0;
+ position: relative;
+}
+#testimonials:before{
+ background: rgba(52, 73, 94, 0.7);
+ content: "";
+ position: absolute;
+ top: 0;
+ height: 100%;
+ width: 100%;
+}
+.testimonial img{
+ border-radius: 50%;
+ width: 100%;
+ width: 105px;
+ height: 100px;
+}
+.testimonial p,.author,.author-company{
+ color: white;
+}
+.news-post img{
+ width: 100%;
+ height: auto;
+ margin-bottom: 10px;
+}
+
+.news-post h3{
+ font-size: 1.35rem;
+}
+.news-post h3 a{
+ text-decoration: none;
+ color: rgb(66, 195, 247);
+}
+.post-date{
+ font-size: 12px;
+ margin-bottom: 10px;
+}
+.post-date:before{
+content: "\f073";
+font-family: FontAwesome;
+padding-right: 5px;
+}
+.news-post a.readmore{
+ font-size: 14px;
+ color: rgb(66, 195, 247);
+ text-decoration: none;
+}
+.news-post a.readmore:after{
+ content: "\f054";
+ font-family: FontAwesome;
+ padding-left: 5px;
+}
+#footer-bar{
+ color: white;
+ background: rgb(52, 73, 94);
+}
+#footer-bar{
+ padding: 15px 0;
+}
+.footer-part{
+ margin: 15px 0;
+}
+.footer-part h4:after{
+ background: white;
+ height: 3px;
+ width:50px;
+ content: "";
+ display: block;
+ margin: 5px 0;
+}
+.imp-link{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+.imp-link li a{
+ color: white;
+ text-decoration: none;
+ margin-bottom: 5px;
+}
+.imp-link li:before{
+ content: "\f054";
+ font-family: FontAwesome;
+ padding-right: 5px;
+}
+#footer-last{ 
+ color: white;
+ background: rgb(44, 62, 80);
+ padding: 10px 0;
+}
+.social-icon{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+.social-icon li{
+ display: inline-block;
+ padding-left: 5px;
+}
+.social-icon ul{
+ display: inline-block;
+}
+.social-icon li a{
+ color: white;
+ text-decoration: none;
+}
+
+@media(max-width: 992px){
+ .news-post{
+ margin-bottom: 30px;
+}
+ }
+
+@media(max-width:768px){
+ #logo{
+ text-align: center;
+ }
+
+#menu{
+ text-align: center;
+ margin-top: 10px;
+}
+
+.section{
+ padding-top: 40px;
+ padding-bottom: 40px;
+}
+
+.service-box{
+ margin-bottom: 40px;
+}
+
+ .testimonial{
+ text-align: center;
+ margin-bottom: 30px;
+}
+
+.footer-part{
+ margin-bottom: 20px;
+}
+
+#footer-last{
+ text-align: center;
+}
+.social-icon{
+ margin-top: 10px;
+}
+}
